@@ -1,0 +1,14 @@
+# Entornos virtuales y entornos IDE
+.venv/
+venv/
+.env
+.idea/
+
+# Logs y archivos generados
+*.log
+auth_events.log
+result.log
+
+# Python cache y archivos temporales
+__pycache__/
+*.py[cod]

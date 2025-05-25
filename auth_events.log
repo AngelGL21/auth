@@ -1,2 +1,1 @@
-2025-05-25 12:39:10,152 INFO Login attempt - IP: N/A | User: alopez | Status: login_failed
-2025-05-25 12:41:40,942 | INFO | Usuario: alopez | Evento: login_failed
+2025-05-25 13:44:34,151 INFO [main] Login attempt - IP: 127.0.0.1 | User: logtestuser | Status: login_failed

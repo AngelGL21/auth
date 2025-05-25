@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from datetime import datetime, timedelta
 import re
 import logging
+from passlib.context import CryptContext
 
 # Configurar logging
 logging.basicConfig(
@@ -13,8 +14,11 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
+# Configurar contexto de cifrado
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
 login_attempts = {}
-registered_users = {}
+registered_users = {}  # username -> hashed_password
 BLOCK_DURATION = timedelta(minutes=15)
 MAX_ATTEMPTS = 5
 
@@ -59,7 +63,9 @@ def register(username: str, password: str):
     if not validate_username(username):
         log_login_attempt("N/A", username, "register_failed_invalid_username")
         raise HTTPException(status_code=400, detail="Nombre de usuario inválido.")
-    registered_users[username] = password
+
+    hashed_password = pwd_context.hash(password)
+    registered_users[username] = hashed_password
     login_attempts[username] = {"attempts": 0, "blocked_until": None}
     log_login_attempt("N/A", username, "register_success")
     return {"msg": "Usuario registrado exitosamente"}
@@ -70,11 +76,16 @@ def login(username: str, password: str):
     if is_user_blocked(username):
         log_login_attempt("N/A", username, "login_blocked")
         raise HTTPException(status_code=403, detail="Usuario bloqueado temporalmente.")
-    success = registered_users.get(username) == password
+
+    stored_hash = registered_users.get(username)
+    success = stored_hash and pwd_context.verify(password, stored_hash)
+
     register_login_attempt(username, success)
     log_login_attempt("N/A", username, "login_success" if success else "login_failed")
+
     if not success:
         raise HTTPException(status_code=401, detail="Credenciales inválidas.")
+
     return {"msg": "Login exitoso"}
 
 
