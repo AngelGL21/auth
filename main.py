@@ -75,7 +75,7 @@ def login(username: str, password: str):
     log_login_attempt("N/A", username, "login_success" if success else "login_failed")
     if not success:
         raise HTTPException(status_code=401, detail="Credenciales inválidas.")
-    return {"msg": "Login exitoso"}
+    return {"msg": "ok"}
 
 
 @app.get("/")
