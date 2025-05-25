@@ -2,10 +2,20 @@ from fastapi import FastAPI, HTTPException
 from datetime import datetime, timedelta
 import re
 import logging
+import os
+from passlib.context import CryptContext
 
-# Configurar logging
+LOG_FILE = 'auth_events.log'
+
+# Crear archivo si no existen
+if not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, 'w') as f:
+        f.write("")
+    # Establecer permisos seguros: rw-r----- (propietario puede leer/escribir, grupo solo leer)
+    os.chmod(LOG_FILE, 0o640)
+
 logging.basicConfig(
-    filename='auth_events.log',
+    filename=LOG_FILE,
     level=logging.INFO,
     format='%(asctime)s %(levelname)s [%(name)s] %(message)s'
 )
@@ -46,10 +56,10 @@ def validate_username(username: str) -> bool:
 
 
 def log_login_attempt(ip: str, username: str, status: str):
-    logger.info(
-        f"Login attempt - IP: {ip} | User: {username} | Status: {status}"
-    )
+    logger.info(f"Login attempt - IP: {ip} | User: {username} | Status: {status}")
 
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 @app.post("/register")
 def register(username: str, password: str):
@@ -59,24 +69,24 @@ def register(username: str, password: str):
     if not validate_username(username):
         log_login_attempt("N/A", username, "register_failed_invalid_username")
         raise HTTPException(status_code=400, detail="Nombre de usuario inválido.")
-    registered_users[username] = password
+    hashed_password = pwd_context.hash(password)
+    registered_users[username] = hashed_password
     login_attempts[username] = {"attempts": 0, "blocked_until": None}
     log_login_attempt("N/A", username, "register_success")
     return {"msg": "Usuario registrado exitosamente"}
-
 
 @app.post("/login")
 def login(username: str, password: str):
     if is_user_blocked(username):
         log_login_attempt("N/A", username, "login_blocked")
         raise HTTPException(status_code=403, detail="Usuario bloqueado temporalmente.")
-    success = registered_users.get(username) == password
+    hashed = registered_users.get(username)
+    success = hashed and pwd_context.verify(password, hashed)
     register_login_attempt(username, success)
     log_login_attempt("N/A", username, "login_success" if success else "login_failed")
     if not success:
         raise HTTPException(status_code=401, detail="Credenciales inválidas.")
     return {"msg": "Login exitoso"}
-
 
 @app.get("/")
 def get_users():

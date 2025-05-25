@@ -1,2 +1,27 @@
-2025-05-25 12:39:10,152 INFO Login attempt - IP: N/A | User: alopez | Status: login_failed
-2025-05-25 12:41:40,942 | INFO | Usuario: alopez | Evento: login_failed
+2025-05-25 14:32:18,061 INFO [main] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-05-25 14:32:43,912 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_success
+2025-05-25 14:32:48,064 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:32:48,224 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:32:48,378 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:32:48,539 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:32:48,688 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:32:48,831 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
+2025-05-25 14:32:48,996 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
+2025-05-25 14:32:49,153 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
+2025-05-25 14:32:49,372 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
+2025-05-25 14:45:24,334 WARNING [passlib.handlers.bcrypt] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\lopez\OneDrive\Documentos\MAESTRIA\DISEÑO DE SEGURIDAD Y CMMI\auth\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-25 14:45:24,716 INFO [main] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-05-25 14:45:36,601 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_success
+2025-05-25 14:45:39,070 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_success
+2025-05-25 14:45:40,256 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_success
+2025-05-25 14:45:44,318 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:45:45,368 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:45:46,831 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:45:47,415 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:45:47,841 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_failed
+2025-05-25 14:45:48,935 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
