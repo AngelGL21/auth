@@ -1,0 +1,14 @@
+
+Resultados Finales
+==================
+Total archivos Python: 5
+Líneas de código: 191
+Líneas de comentarios: 20
+
+Vulnerabilidades en código propio: 21
+Hallazgos en dependencias: 0 (HIGH severity)
+
+Figura 29: Densidad de código/comentarios
+---------------------------------------
+Ratio comentarios/código: 10.5%
+Nota: Buenas prácticas recomiendan >20% de comentarios

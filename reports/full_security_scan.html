@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+    Bandit Report
+</title>
+
+<style>
+
+html * {
+    font-family: "Arial", sans-serif;
+}
+
+pre {
+    font-family: "Monaco", monospace;
+}
+
+.bordered-box {
+    border: 1px solid black;
+    padding-top:.5em;
+    padding-bottom:.5em;
+    padding-left:1em;
+}
+
+.metrics-box {
+    font-size: 1.1em;
+    line-height: 130%;
+}
+
+.metrics-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: .25em;
+}
+
+.issue-description {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.candidate-issues {
+    margin-left: 2em;
+    border-left: solid 1px; LightGray;
+    padding-left: 5%;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.issue-block {
+    border: 1px solid LightGray;
+    padding-left: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.issue-sev-high {
+    background-color: Pink;
+}
+
+.issue-sev-medium {
+    background-color: NavajoWhite;
+}
+
+.issue-sev-low {
+    background-color: LightCyan;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="metrics">
+    <div class="metrics-box bordered-box">
+        <div class="metrics-title">
+            Metrics:<br>
+        </div>
+        Total lines of code: <span id="loc">193244</span><br>
+        Total lines skipped (#nosec): <span id="nosec">0</span>
+    </div>
+</div>
+
+
+
+
+<br>
+<div id="results">
+    
+<div id="issue-0">
+<div class="issue-block issue-sev-high">
+    <b>subprocess_popen_with_shell_equals_true: </b> subprocess call with shell=True identified, security issue.<br>
+    <b>Test ID:</b> B602<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/78.html" target="_blank">CWE-78</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_internal\commands\configuration.py" target="_blank">.\.venv\Lib\site-packages\pip\_internal\commands\configuration.py</a><br>
+    <b>Line number: </b>239<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b602_subprocess_popen_with_shell_equals_true.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b602_subprocess_popen_with_shell_equals_true.html</a><br>
+
+<div class="code">
+<pre>
+238	        try:
+239	            subprocess.check_call(f&#x27;{editor} &quot;{fname}&quot;&#x27;, shell=True)
+240	        except FileNotFoundError as e:
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-1">
+<div class="issue-block issue-sev-high">
+    <b>blacklist: </b> Using xmlrpc.client to parse untrusted XML data is known to be vulnerable to XML attacks. Use defusedxml.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.<br>
+    <b>Test ID:</b> B411<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">CWE-20</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_internal\commands\search.py" target="_blank">.\.venv\Lib\site-packages\pip\_internal\commands\search.py</a><br>
+    <b>Line number: </b>5<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib" target="_blank">https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib</a><br>
+
+<div class="code">
+<pre>
+4	import textwrap
+5	import xmlrpc.client
+6	from collections import OrderedDict
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-2">
+<div class="issue-block issue-sev-high">
+    <b>blacklist: </b> Using xmlrpc.client to parse untrusted XML data is known to be vulnerable to XML attacks. Use defusedxml.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.<br>
+    <b>Test ID:</b> B411<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">CWE-20</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_internal\network\xmlrpc.py" target="_blank">.\.venv\Lib\site-packages\pip\_internal\network\xmlrpc.py</a><br>
+    <b>Line number: </b>6<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib" target="_blank">https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib</a><br>
+
+<div class="code">
+<pre>
+5	import urllib.parse
+6	import xmlrpc.client
+7	from typing import TYPE_CHECKING, Tuple
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-3">
+<div class="issue-block issue-sev-high">
+    <b>blacklist: </b> Using _HostType to parse untrusted XML data is known to be vulnerable to XML attacks. Use defusedxml.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.<br>
+    <b>Test ID:</b> B411<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">CWE-20</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_internal\network\xmlrpc.py" target="_blank">.\.venv\Lib\site-packages\pip\_internal\network\xmlrpc.py</a><br>
+    <b>Line number: </b>14<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib" target="_blank">https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib</a><br>
+
+<div class="code">
+<pre>
+13	if TYPE_CHECKING:
+14	    from xmlrpc.client import _HostType, _Marshallable
+15	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-4">
+<div class="issue-block issue-sev-high">
+    <b>tarfile_unsafe_members: </b> tarfile.extractall used without any validation. Please check and discard dangerous members.<br>
+    <b>Test ID:</b> B202<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/22.html" target="_blank">CWE-22</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_internal\utils\unpacking.py" target="_blank">.\.venv\Lib\site-packages\pip\_internal\utils\unpacking.py</a><br>
+    <b>Line number: </b>245<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html</a><br>
+
+<div class="code">
+<pre>
+244	
+245	            tar.extractall(location, filter=pip_filter)
+246	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-5">
+<div class="issue-block issue-sev-high">
+    <b>blacklist: </b> Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defusedxml.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.<br>
+    <b>Test ID:</b> B411<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">CWE-20</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py</a><br>
+    <b>Line number: </b>42<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib" target="_blank">https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib</a><br>
+
+<div class="code">
+<pre>
+41	    import httplib
+42	    import xmlrpclib
+43	    import Queue as queue
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-6">
+<div class="issue-block issue-sev-high">
+    <b>blacklist: </b> Using xmlrpc.client to parse untrusted XML data is known to be vulnerable to XML attacks. Use defusedxml.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.<br>
+    <b>Test ID:</b> B411<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">CWE-20</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py</a><br>
+    <b>Line number: </b>81<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib" target="_blank">https://bandit.readthedocs.io/en/1.8.3/blacklists/blacklist_imports.html#b411-import-xmlrpclib</a><br>
+
+<div class="code">
+<pre>
+80	    import urllib.request as urllib2
+81	    import xmlrpc.client as xmlrpclib
+82	    import queue
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-7">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak MD5 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\distlib\database.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\distlib\database.py</a><br>
+    <b>Line number: </b>1007<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+1006	                f.close()
+1007	            return hashlib.md5(content).hexdigest()
+1008	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-8">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak MD5 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\distlib\index.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\distlib\index.py</a><br>
+    <b>Line number: </b>269<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+268	            file_data = f.read()
+269	        md5_digest = hashlib.md5(file_data).hexdigest()
+270	        sha256_digest = hashlib.sha256(file_data).hexdigest()
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-9">
+<div class="issue-block issue-sev-high">
+    <b>tarfile_unsafe_members: </b> tarfile.extractall used without any validation. Please check and discard dangerous members.<br>
+    <b>Test ID:</b> B202<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/22.html" target="_blank">CWE-22</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\distlib\util.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\distlib\util.py</a><br>
+    <b>Line number: </b>1285<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html</a><br>
+
+<div class="code">
+<pre>
+1284	
+1285	        archive.extractall(dest_dir)
+1286	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-10">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak MD5 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\requests\auth.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\requests\auth.py</a><br>
+    <b>Line number: </b>148<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+147	                    x = x.encode(&quot;utf-8&quot;)
+148	                return hashlib.md5(x).hexdigest()
+149	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-11">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak SHA1 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\requests\auth.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\requests\auth.py</a><br>
+    <b>Line number: </b>156<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+155	                    x = x.encode(&quot;utf-8&quot;)
+156	                return hashlib.sha1(x).hexdigest()
+157	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-12">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak SHA1 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\pip\_vendor\requests\auth.py" target="_blank">.\.venv\Lib\site-packages\pip\_vendor\requests\auth.py</a><br>
+    <b>Line number: </b>205<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+204	
+205	        cnonce = hashlib.sha1(s).hexdigest()[:16]
+206	        if _algorithm == &quot;MD5-SESS&quot;:
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-13">
+<div class="issue-block issue-sev-high">
+    <b>start_process_with_a_shell: </b> Starting a process with a shell, possible injection detected, security issue.<br>
+    <b>Test ID:</b> B605<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/78.html" target="_blank">CWE-78</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\_distutils\command\bdist_rpm.py" target="_blank">.\.venv\Lib\site-packages\setuptools\_distutils\command\bdist_rpm.py</a><br>
+    <b>Line number: </b>357<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b605_start_process_with_a_shell.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b605_start_process_with_a_shell.html</a><br>
+
+<div class="code">
+<pre>
+356	
+357	        out = os.popen(q_cmd)
+358	        try:
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-14">
+<div class="issue-block issue-sev-high">
+    <b>set_bad_file_permissions: </b> Chmod setting a permissive mask 0o777 on file (exe).<br>
+    <b>Test ID:</b> B103<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/732.html" target="_blank">CWE-732</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\_distutils\tests\test_spawn.py" target="_blank">.\.venv\Lib\site-packages\setuptools\_distutils\tests\test_spawn.py</a><br>
+    <b>Line number: </b>32<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html</a><br>
+
+<div class="code">
+<pre>
+31	
+32	        os.chmod(exe, 0o777)
+33	        with pytest.raises(DistutilsExecError):
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-15">
+<div class="issue-block issue-sev-high">
+    <b>set_bad_file_permissions: </b> Chmod setting a permissive mask 0o777 on file (exe).<br>
+    <b>Test ID:</b> B103<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/732.html" target="_blank">CWE-732</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\_distutils\tests\test_spawn.py" target="_blank">.\.venv\Lib\site-packages\setuptools\_distutils\tests\test_spawn.py</a><br>
+    <b>Line number: </b>44<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html</a><br>
+
+<div class="code">
+<pre>
+43	
+44	        os.chmod(exe, 0o777)
+45	        spawn([exe])  # should work without any error
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-16">
+<div class="issue-block issue-sev-high">
+    <b>tarfile_unsafe_members: </b> tarfile.extractall used without any validation. Please check and discard dangerous members.<br>
+    <b>Test ID:</b> B202<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/22.html" target="_blank">CWE-22</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\_vendor\jaraco\context.py" target="_blank">.\.venv\Lib\site-packages\setuptools\_vendor\jaraco\context.py</a><br>
+    <b>Line number: </b>65<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html</a><br>
+
+<div class="code">
+<pre>
+64	        with tarfile.open(fileobj=req, mode=&#x27;r|*&#x27;) as tf:
+65	            tf.extractall(path=target_dir, filter=strip_first_component)
+66	        yield target_dir
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-17">
+<div class="issue-block issue-sev-high">
+    <b>subprocess_popen_with_shell_equals_true: </b> subprocess call with shell=True identified, security issue.<br>
+    <b>Test ID:</b> B602<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/78.html" target="_blank">CWE-78</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\tests\environment.py" target="_blank">.\.venv\Lib\site-packages\setuptools\tests\environment.py</a><br>
+    <b>Line number: </b>77<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b602_subprocess_popen_with_shell_equals_true.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b602_subprocess_popen_with_shell_equals_true.html</a><br>
+
+<div class="code">
+<pre>
+76	            stderr=_PIPE,
+77	            shell=shell,
+78	            env=env,
+79	            encoding=&quot;utf-8&quot;,
+80	        )
+81	
+82	        if isinstance(data_stream, tuple):
+83	            data_stream = slice(*data_stream)
+84	        data = proc.communicate()[data_stream]
+85	    except OSError:
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-18">
+<div class="issue-block issue-sev-high">
+    <b>hashlib: </b> Use of weak MD5 hash for security. Consider usedforsecurity=False<br>
+    <b>Test ID:</b> B324<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/327.html" target="_blank">CWE-327</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\tests\integration\test_pip_install_sdist.py" target="_blank">.\.venv\Lib\site-packages\setuptools\tests\integration\test_pip_install_sdist.py</a><br>
+    <b>Line number: </b>190<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b324_hashlib.html</a><br>
+
+<div class="code">
+<pre>
+189	
+190	    assert md5(data).hexdigest() == md5_digest
+191	
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-19">
+<div class="issue-block issue-sev-high">
+    <b>tarfile_unsafe_members: </b> tarfile.extractall used without any validation. Please check and discard dangerous members.<br>
+    <b>Test ID:</b> B202<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/22.html" target="_blank">CWE-22</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\tests\test_easy_install.py" target="_blank">.\.venv\Lib\site-packages\setuptools\tests\test_easy_install.py</a><br>
+    <b>Line number: </b>682<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b202_tarfile_unsafe_members.html</a><br>
+
+<div class="code">
+<pre>
+681	                    tf.extraction_filter = lambda member, path: member
+682	                    tf.extractall(foobar_1_dir)
+683	                sys.path.insert(1, foobar_1_dir)
+</pre>
+</div>
+
+
+</div>
+</div>
+
+<div id="issue-20">
+<div class="issue-block issue-sev-high">
+    <b>set_bad_file_permissions: </b> Chmod setting a permissive mask 0o777 on file (runsh).<br>
+    <b>Test ID:</b> B103<br>
+    <b>Severity: </b>HIGH<br>
+    <b>Confidence: </b>HIGH<br>
+    <b>CWE: </b><a href="https://cwe.mitre.org/data/definitions/732.html" target="_blank">CWE-732</a><br>
+    <b>File: </b><a href=".\.venv\Lib\site-packages\setuptools\tests\test_wheel.py" target="_blank">.\.venv\Lib\site-packages\setuptools\tests\test_wheel.py</a><br>
+    <b>Line number: </b>650<br>
+    <b>More info: </b><a href="https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html" target="_blank">https://bandit.readthedocs.io/en/1.8.3/plugins/b103_set_bad_file_permissions.html</a><br>
+
+<div class="code">
+<pre>
+649	            runsh = pathlib.Path(source_dir) / &quot;script.sh&quot;
+650	            os.chmod(runsh, 0o777)
+651	            subprocess.check_call(
+</pre>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
