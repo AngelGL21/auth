@@ -65,7 +65,17 @@ def register(username: str, password: str):
     return {"msg": "Usuario registrado exitosamente"}
 
 
-
+@app.post("/login")
+def login(username: str, password: str):
+    if is_user_blocked(username):
+        log_login_attempt("N/A", username, "login_blocked")
+        raise HTTPException(status_code=403, detail="Usuario bloqueado temporalmente.")
+    success = registered_users.get(username) == password
+    register_login_attempt(username, success)
+    log_login_attempt("N/A", username, "login_success" if success else "login_failed")
+    if not success:
+        raise HTTPException(status_code=401, detail="Credenciales inválidas.")
+    return {"msg": "ok"}
 
 
 @app.get("/")
