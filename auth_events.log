@@ -34,3 +34,5 @@
 2025-05-25 15:52:56,023 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
 2025-05-25 15:52:56,155 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
 2025-05-25 15:52:56,385 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_blocked
+2025-05-31 17:36:08,834 INFO [main] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-05-31 17:36:21,430 INFO [main] Login attempt - IP: N/A | User: angel | Status: login_success
