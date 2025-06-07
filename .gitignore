@@ -1,0 +1,4 @@
+.env
+auth_events.log
+venv/
+__pycache__/
