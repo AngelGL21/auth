@@ -9,7 +9,7 @@
 - Endpoint de recuperación de contraseña con envío de correo.
 - Manejo seguro de configuraciones con archivo `.env` y `pydantic`.
 
-## [v1.1.0] - 2025-06-06
+## [v1.1.0] - 2025-06-01
 ### Agregado
 - Aplicación técnica de áreas de proceso del modelo CMMI-DEV (MANAGING):
   - EST: estimaciones por tarea y complejidad.
@@ -20,7 +20,7 @@
 - Documentación de estimaciones, matriz de tareas y gestión de riesgos.
 - Archivos técnicos: `estimaciones.xlsx`, `risk_matrix.md`, `planificacion.md`.
 
-## [v1.0.0] - 2025-06-05
+## [v1.0.0] - 2025-05-26
 ### Inicial
 - Configuración de FastAPI como framework base.
 - Endpoint básico de login utilizando autenticación con nombre de usuario y contraseña.
