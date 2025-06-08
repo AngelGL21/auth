@@ -61,3 +61,553 @@
 2025-06-01 15:08:17,626 INFO [utils.security] Login attempt - IP: N/A | User: joelarriola | Status: login_success
 2025-06-01 15:22:23,791 INFO [utils.security] Login attempt - IP: N/A | User: joelarriola | Status: register_success
 2025-06-01 15:22:27,983 INFO [utils.security] Login attempt - IP: N/A | User: joelarriola | Status: login_success
+2025-06-07 17:08:19,532 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:12:55,481 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 17:13:20,466 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:13:21,389 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:16:10,754 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:16:11,318 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:16:11,886 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:16:12,247 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:17:21,696 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:17:23,112 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:18:14,650 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 17:19:53,653 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:19:54,295 INFO [watchfiles.main] 2 changes detected
+2025-06-07 17:19:55,325 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:20:23,671 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:20:25,093 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:20:28,110 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:20:28,476 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:20:29,450 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:20:29,818 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:20:48,751 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 17:21:52,193 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:21:52,867 INFO [watchfiles.main] 2 changes detected
+2025-06-07 17:21:53,834 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:21:57,581 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:21:57,938 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:21:58,817 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:22:05,241 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:05,643 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:06,562 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:22:12,182 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:12,948 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:22:17,108 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:17,480 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:18,254 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:22:27,677 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:28,042 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:28,965 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:22:29,319 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:22:51,746 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 17:23:40,206 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:23:41,431 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:27:13,294 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:27:14,371 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:28:03,839 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:28:04,553 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:28:05,069 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:28:05,426 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:28:54,620 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:28:55,802 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:29:17,240 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:29:18,109 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:29:18,493 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:29:39,553 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 17:30:23,181 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:30:25,254 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:36:33,441 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:36:35,307 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:37:21,802 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:37:22,383 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:37:22,941 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:37:53,955 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:37:54,316 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:37:55,079 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:37:55,438 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:38:36,233 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:38:36,829 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:38:37,856 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:38:38,218 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:23,486 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:24,079 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:25,058 INFO [watchfiles.main] 6 changes detected
+2025-06-07 17:39:35,997 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:36,610 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:39:43,613 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:43,986 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:45,047 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:39:45,405 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:56,554 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:57,145 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:39:58,050 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:39:58,411 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:40:04,144 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:40:04,762 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:40:05,919 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:40:06,272 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:42:37,189 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:42:39,272 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:46:29,352 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:46:30,565 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:49:31,206 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:49:32,932 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:52:29,934 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:52:30,503 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:52:31,326 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:52:31,681 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:52:33,400 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:52:33,956 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:53:26,323 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:26,950 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:28,086 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:53:28,441 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:45,369 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:46,058 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:46,856 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:47,271 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:47,833 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:53:48,803 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:05,718 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:06,305 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:18,858 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:19,221 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:31,369 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:31,990 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:44,915 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:45,276 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:54:46,258 INFO [watchfiles.main] 10 changes detected
+2025-06-07 17:55:30,394 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:55:30,757 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:55:31,681 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:55:34,566 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:55:36,441 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:56:36,842 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:56:50,884 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:56:51,849 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:57:01,729 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:57:02,500 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:57:12,714 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:57:13,084 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:57:14,106 INFO [watchfiles.main] 5 changes detected
+2025-06-07 17:57:14,462 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:08,742 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:09,417 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:10,193 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:11,409 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:12,620 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:36,972 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:38,543 INFO [watchfiles.main] 4 changes detected
+2025-06-07 17:58:48,823 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:49,462 INFO [watchfiles.main] 1 change detected
+2025-06-07 17:58:50,600 INFO [watchfiles.main] 9 changes detected
+2025-06-07 17:58:50,955 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:03:40,239 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:03:42,158 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:04:10,576 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:04:11,155 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:04:12,161 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:04:12,513 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:04:51,079 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:04:51,672 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:04:52,846 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:04:53,201 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:06:20,868 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:06:22,058 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:06:22,414 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:07:06,809 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:07:08,587 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:09:20,004 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:09:20,627 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:09:21,602 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:09:21,963 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:10:09,305 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:10:10,464 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:10:18,181 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:10:18,826 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:10:19,947 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:10:20,306 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:35,733 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:36,762 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:12:37,121 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:48,381 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:49,513 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:12:49,881 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:54,039 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:12:55,320 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:12:55,681 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:13:15,467 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:13:16,931 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:17:37,271 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:17:38,353 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:17:38,717 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:17:52,284 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 18:20:39,868 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:20:40,432 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:23:53,726 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:23:55,402 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:26:40,963 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:26:41,590 INFO [watchfiles.main] 2 changes detected
+2025-06-07 18:26:42,521 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:26:42,876 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:26:56,023 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:26:57,442 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:27:43,125 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:27:43,492 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:27:44,524 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:27:44,885 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:28:27,812 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 18:30:04,560 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:30:05,526 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:32:02,024 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:32:02,615 INFO [watchfiles.main] 2 changes detected
+2025-06-07 18:32:03,535 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:32:03,903 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:32:42,440 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 18:33:33,598 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:33:35,622 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:34:10,810 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:34:11,419 INFO [watchfiles.main] 2 changes detected
+2025-06-07 18:34:12,448 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:34:12,803 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:34:28,728 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 18:37:00,422 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:37:02,039 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:37:06,701 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:37:07,390 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:37:08,125 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:37:08,486 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:39:43,536 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:39:44,890 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:39:45,254 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:40:17,309 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 18:40:43,727 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:40:45,050 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:41:48,707 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:41:49,329 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:41:49,844 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:41:50,200 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:42:02,478 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:42:03,704 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:42:04,065 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:42:18,783 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:42:20,262 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:42:20,626 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:43:53,761 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:43:55,842 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:56:21,346 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:56:21,712 INFO [watchfiles.main] 4 changes detected
+2025-06-07 18:59:12,658 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:59:13,490 INFO [watchfiles.main] 5 changes detected
+2025-06-07 18:59:13,854 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:59:22,049 INFO [watchfiles.main] 1 change detected
+2025-06-07 18:59:22,506 INFO [watchfiles.main] 4 changes detected
+2025-06-07 19:00:05,607 INFO [watchfiles.main] 1 change detected
+2025-06-07 19:00:06,168 INFO [watchfiles.main] 1 change detected
+2025-06-07 19:00:06,812 INFO [watchfiles.main] 5 changes detected
+2025-06-07 19:00:07,169 INFO [watchfiles.main] 1 change detected
+2025-06-07 19:00:14,603 INFO [watchfiles.main] 1 change detected
+2025-06-07 19:00:15,160 INFO [watchfiles.main] 1 change detected
+2025-06-07 19:13:37,557 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 19:18:16,698 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-07 22:25:07,032 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-07 22:27:50,815 INFO [watchfiles.main] 17 changes detected
+2025-06-07 22:27:51,746 INFO [watchfiles.main] 10 changes detected
+2025-06-07 23:00:44,962 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:00:45,570 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:00:46,406 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:00:46,760 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:04:43,172 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:04:45,090 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:05:28,808 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:05:29,378 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:05:30,265 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:05:30,629 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:06:38,902 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:06:39,525 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:06:40,597 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:06:40,952 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:07:21,921 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:07:22,742 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:07:23,102 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:07:45,648 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:07:46,558 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:08:03,412 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:08:04,446 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:08:04,798 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:08:37,137 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:09:08,698 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:10:47,090 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:10:48,419 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:14:04,307 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:14:05,836 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:14:21,066 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:16:44,609 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:16:45,303 INFO [watchfiles.main] 2 changes detected
+2025-06-07 23:16:45,962 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:17:06,448 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:17:07,041 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:17:16,927 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:17:18,007 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:17:43,120 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:17:47,129 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:17:47,256 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:20:00,444 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:20:07,781 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:20:09,201 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:26:22,767 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:26:24,545 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:27:09,838 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:27:28,340 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:27:34,366 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-07 23:27:40,992 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:29:25,037 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:29:26,302 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:30:20,808 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:30:21,459 INFO [watchfiles.main] 2 changes detected
+2025-06-07 23:30:22,619 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:30:28,602 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:30:29,253 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:30:30,484 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:30:41,909 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:30:46,481 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:30:46,710 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:32:48,840 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-07 23:33:07,289 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:33:32,321 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:33:34,041 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:34:08,466 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:34:12,486 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:35:17,002 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:35:17,680 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:35:18,237 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:35:18,599 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:35:25,697 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:35:29,389 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:36:12,848 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:36:13,411 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:36:14,023 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:36:14,397 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:36:34,615 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:36:36,238 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:39:30,689 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:39:32,103 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:39:45,210 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:39:45,766 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:42:46,390 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:42:46,945 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:42:53,252 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:42:53,834 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:42:54,820 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:42:58,882 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:42:59,243 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:43:03,311 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:43:08,120 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:43:08,221 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:46:25,428 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:46:26,651 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:47:37,309 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:47:37,949 INFO [watchfiles.main] 2 changes detected
+2025-06-07 23:47:39,127 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:30,947 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:31,542 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:32,762 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:55,624 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:56,249 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:48:57,590 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:49:27,292 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:49:29,010 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:49:55,851 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:49:57,171 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:49:57,523 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:29,802 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:30,165 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:36,875 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:37,461 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:38,497 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:50:38,852 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:50:43,328 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:50:47,601 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:50:50,461 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:51:29,075 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-07 23:51:44,482 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:52:29,571 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:52:31,036 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:53:14,239 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:14,830 INFO [watchfiles.main] 2 changes detected
+2025-06-07 23:53:15,820 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:53:16,172 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:37,300 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:37,653 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:44,343 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:44,706 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:53:53,938 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:53:59,475 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:54:37,840 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-07 23:55:31,556 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:55:32,575 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:55:44,716 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:55:45,285 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:55:45,803 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:55:46,158 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:58:41,600 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:58:43,015 INFO [watchfiles.main] 4 changes detected
+2025-06-07 23:59:15,880 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:59:16,535 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:59:17,698 INFO [watchfiles.main] 5 changes detected
+2025-06-07 23:59:18,054 INFO [watchfiles.main] 1 change detected
+2025-06-07 23:59:42,317 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-07 23:59:56,283 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 00:08:45,103 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:08:46,723 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:11:47,368 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:11:49,643 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:13:24,255 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:13:24,876 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:13:25,335 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:13:25,700 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:13:39,653 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 00:14:50,252 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:14:51,469 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:18:27,483 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:18:29,097 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:19:12,811 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:19:13,490 INFO [watchfiles.main] 2 changes detected
+2025-06-08 00:19:14,504 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:19:14,869 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:19:30,705 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:19:31,298 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:19:32,417 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:19:32,770 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:11,776 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:12,780 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:20:13,140 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:17,121 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:17,483 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:18,314 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:20:18,667 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:27,429 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:27,792 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:28,812 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:20:29,170 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:36,188 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:36,551 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:20:37,524 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:20:37,883 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:14,607 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 00:21:29,676 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:31,452 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:32,071 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:32,485 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:32,837 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:21:35,446 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:21:56,449 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 00:25:54,436 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:25:55,655 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:26:47,663 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:26:48,288 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:26:48,902 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:26:49,258 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:27:11,659 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 00:31:14,757 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:31:16,284 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:35:45,981 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:35:47,352 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:36:49,003 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:36:49,660 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:36:50,164 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:36:50,517 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:37:22,525 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:37:23,182 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:37:24,108 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:37:24,465 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:21,122 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:21,760 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:22,657 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:38:23,012 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:44,054 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:44,423 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:45,288 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:38:45,654 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:47,985 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:38:49,206 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:39:12,406 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:12,771 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:13,698 INFO [watchfiles.main] 6 changes detected
+2025-06-08 00:39:25,551 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:25,916 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:26,679 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:39:27,044 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:55,264 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:55,684 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:39:56,548 INFO [watchfiles.main] 6 changes detected
+2025-06-08 00:40:16,384 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:40:16,758 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:40:17,601 INFO [watchfiles.main] 6 changes detected
+2025-06-08 00:40:30,561 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:40:30,929 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:40:31,811 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:40:32,166 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:13,140 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:13,869 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:14,897 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:41:15,255 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:37,158 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:37,757 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:41:38,824 INFO [watchfiles.main] 5 changes detected
+2025-06-08 00:41:39,186 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:42:12,040 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 00:45:04,778 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:45:05,244 INFO [watchfiles.main] 4 changes detected
+2025-06-08 00:54:18,610 INFO [watchfiles.main] 1 change detected
+2025-06-08 00:54:19,064 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:05:15,026 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:05:15,492 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:17:11,618 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:17:12,070 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:17:42,000 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: register_success
+2025-06-08 01:20:12,456 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:20:12,872 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:20:28,499 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:20:29,036 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:20:29,388 INFO [watchfiles.main] 6 changes detected
+2025-06-08 01:21:14,705 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:21:15,438 INFO [watchfiles.main] 5 changes detected
+2025-06-08 01:21:15,794 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:24:42,675 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: register_success
+2025-06-08 01:25:06,507 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:25:06,973 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:26:11,317 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:26:11,898 INFO [watchfiles.main] 2 changes detected
+2025-06-08 01:26:12,462 INFO [watchfiles.main] 5 changes detected
+2025-06-08 01:26:12,818 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:26:26,665 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:26:27,404 INFO [watchfiles.main] 5 changes detected
+2025-06-08 01:26:27,769 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:27:37,028 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: register_success
+2025-06-08 01:29:57,650 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:29:58,104 INFO [watchfiles.main] 4 changes detected
+2025-06-08 01:41:40,508 INFO [watchfiles.main] 1 change detected
+2025-06-08 01:41:40,975 INFO [watchfiles.main] 4 changes detected
+2025-06-08 02:02:53,240 INFO [watchfiles.main] 1 change detected
+2025-06-08 02:02:53,745 INFO [watchfiles.main] 4 changes detected
+2025-06-08 02:28:44,189 INFO [watchfiles.main] 1 change detected
+2025-06-08 02:28:44,654 INFO [watchfiles.main] 4 changes detected
+2025-06-08 02:31:48,990 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: register_failed_user_exists
+2025-06-08 02:32:53,276 INFO [watchfiles.main] 1 change detected
+2025-06-08 02:32:53,789 INFO [watchfiles.main] 4 changes detected
+2025-06-08 02:38:16,520 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: password_change_success
+2025-06-08 02:39:50,131 INFO [utils.security] Login attempt - IP: N/A | User: angel1 | Status: password_change_success
+2025-06-08 02:43:51,564 INFO [watchfiles.main] 1 change detected
+2025-06-08 02:43:52,016 INFO [watchfiles.main] 4 changes detected
+2025-06-08 02:44:22,014 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 02:55:31,704 INFO [watchfiles.main] 1 change detected
+2025-06-08 02:55:32,060 INFO [watchfiles.main] 4 changes detected
+2025-06-08 03:19:57,128 INFO [watchfiles.main] 1 change detected
+2025-06-08 03:19:57,693 INFO [watchfiles.main] 4 changes detected
+2025-06-08 03:28:14,683 INFO [watchfiles.main] 1 change detected
+2025-06-08 03:28:15,194 INFO [watchfiles.main] 4 changes detected
+2025-06-08 03:28:21,461 INFO [watchfiles.main] 1 change detected
+2025-06-08 03:28:22,018 INFO [watchfiles.main] 1 change detected
+2025-06-08 03:28:22,371 INFO [watchfiles.main] 5 changes detected
