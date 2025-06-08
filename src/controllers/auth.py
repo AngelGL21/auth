@@ -181,3 +181,20 @@ def simulate_error():
 
     return {"msg": "Errores simulados"}
 
+def evaluar_tecnologias():
+    criterios = ["seguridad", "implementar", "documentación"]
+    tecnologias = {
+        "JWT": [8, 9, 8],
+        "OAuth2": [9, 6, 7]
+    }
+    pesos = [0.5, 0.3, 0.2]
+
+    def evaluar(tecnologia):
+        return sum([a * b for a, b in zip(tecnologias[tecnologia], pesos)])
+
+    resultados = {tech: evaluar(tech) for tech in tecnologias}
+    mejor_opcion = max(resultados, key=resultados.get)
+    return {
+        "puntajes": {tech: round(score, 2) for tech, score in resultados.items()},
+        "tecnologia_seleccionada": mejor_opcion
+    }
