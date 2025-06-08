@@ -2,3 +2,5 @@
 auth_events.log
 venv/
 __pycache__/
+*.pyc
+htmlcov/
