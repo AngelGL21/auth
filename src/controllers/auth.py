@@ -194,7 +194,6 @@ def evaluar_tecnologias():
 
     resultados = {tech: evaluar(tech) for tech in tecnologias}
     mejor_opcion = max(resultados, key=resultados.get)
-
     return {
         "puntajes": {tech: round(score, 2) for tech, score in resultados.items()},
         "tecnologia_seleccionada": mejor_opcion
