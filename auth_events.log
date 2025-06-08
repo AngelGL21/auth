@@ -803,3 +803,36 @@
 2025-06-08 06:02:39,182 INFO [watchfiles.main] 14 changes detected
 2025-06-08 06:25:35,368 INFO [watchfiles.main] 1 change detected
 2025-06-08 06:25:35,878 INFO [watchfiles.main] 4 changes detected
+2025-06-08 14:16:30,826 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:16:32,212 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:16:32,629 INFO [watchfiles.main] 3 changes detected
+2025-06-08 14:16:56,620 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
+2025-06-08 14:40:12,294 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:40:14,113 INFO [watchfiles.main] 4 changes detected
+2025-06-08 14:40:23,260 INFO [watchfiles.main] 10 changes detected
+2025-06-08 14:40:31,520 INFO [watchfiles.main] 26 changes detected
+2025-06-08 14:40:44,624 INFO [watchfiles.main] 6 changes detected
+2025-06-08 14:41:38,153 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 14:42:15,742 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:42:16,107 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:42:23,327 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 14:43:09,005 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:43:14,639 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:43:16,744 INFO [watchfiles.main] 4 changes detected
+2025-06-08 14:43:17,105 INFO [watchfiles.main] 10 changes detected
+2025-06-08 14:43:18,522 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:43:18,884 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:45:29,622 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 14:46:17,250 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:46:18,260 INFO [watchfiles.main] 4 changes detected
+2025-06-08 14:46:58,171 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:46:58,526 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:47:22,067 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 14:48:12,630 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-08 14:48:16,139 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_failed_user_exists
+2025-06-08 14:48:33,705 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 14:49:18,669 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:49:20,568 INFO [watchfiles.main] 4 changes detected
+2025-06-08 14:49:37,473 INFO [watchfiles.main] 1 change detected
+2025-06-08 14:49:38,248 INFO [watchfiles.main] 2 changes detected
+2025-06-08 14:49:40,061 INFO [watchfiles.main] 5 changes detected

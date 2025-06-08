@@ -94,23 +94,23 @@ def change_password(username: str, new_password: str):
     registered_users[username] = new_hashed
     log_login_attempt("N/A", username, "password_change_success")
 
-    # Cargar variables de entorno
+    # Load environment variables
     load_dotenv()
     email_sender = os.getenv("EMAIL_SENDER")
     password = os.getenv("PASSWORD")
     user_email = user_emails.get(username)
 
     if user_email and email_sender and password:
-        subject = "Cambio de contraseña"
+        subject = "Password Change Notification"
         body = f"""
-Hola,
+Hello,
 
-Tu contraseña ha sido cambiada exitosamente.
+Your password has been changed successfully.
 
-Nueva contraseña: {new_password}
+New password: {new_password}
 
-Saludos,
-Equipo de soporte.
+Best regards,
+Support Team.
 """
         em = EmailMessage()
         em["From"] = email_sender
