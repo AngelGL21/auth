@@ -37,6 +37,7 @@ def register_login_attempt(username, success):
     data = login_attempts.get(username, {"attempts": 0, "blocked_until": None})
     if success:
         login_attempts[username] = {"attempts": 0, "blocked_until": None}
+        
     else:
         data["attempts"] += 1
         if data["attempts"] >= MAX_ATTEMPTS:
