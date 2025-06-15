@@ -839,3 +839,8 @@
 2025-06-08 14:49:40,420 INFO [watchfiles.main] 1 change detected
 2025-06-08 14:49:51,436 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: register_success
 2025-06-08 14:49:54,779 INFO [utils.security] Login attempt - IP: N/A | User: angel | Status: password_change_success
+2025-06-08 15:20:19,130 INFO [utils.security] Login attempt - IP: N/A | User: joel | Status: register_success
+2025-06-11 11:52:45,263 INFO [utils.security] Login attempt - IP: N/A | User: joel | Status: register_success
+2025-06-11 12:00:09,111 INFO [utils.security] Login attempt - IP: N/A | User: joel | Status: register_failed_user_exists
+2025-06-11 12:05:24,154 INFO [utils.security] Login attempt - IP: N/A | User: joel | Status: register_failed_user_exists
+2025-06-12 14:27:04,926 INFO [utils.security] Login attempt - IP: N/A | User: joel | Status: register_success
